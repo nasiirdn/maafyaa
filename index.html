@@ -1,0 +1,102 @@
+<html>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5'
+  name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<head>
+  <title>FOR YOU</title>
+</head>
+
+<body>
+
+  <div id="bodyblur">
+    <!-- Wallpaper / Background --><img src="https://i.ibb.co.com/DwtCrXb/Whats-App-Image-2024-06-07-at-8-44-14-PM.jpg" id="wallpaper" />
+  </div>
+
+  <div class="kumpulanstiker">
+    <!-- Stiker untuk Konten -->
+    <img src="gif/crying1.gif" id="stiker1" />
+    <img src="gif/crying2.gif" id="stiker2" />
+    <img src="gif/crying3.gif" id="stiker3" />
+    <img src="gif/crying4.gif" id="stiker4" />
+    <img src="gif/crying5.gif" id="stiker5" />
+  </div>
+
+  <div id='Content'>
+
+    <div id="suratin" onClick="memulai();audio.play();">
+      <!-- Surat --><img src="https://i.ibb.co.com/5BvjFTL/mmf.png" />
+    </div>
+    <p id="ket">Coba Arin Pencet</p>
+
+    <div>
+      <!-- Foto Akhir -->
+      <img src="gif/crying6.gif" id="fotoakhir" />
+      <img src="gif/sorry.gif" id="fotoakhir2" />
+    </div>
+    <div>
+      <blockquote id='bq'>
+        <p id="kalimat"></p>
+        <p id="kalimatc"></p>
+      </blockquote>
+    </div>
+
+    <!-- Tombol Kirim Pesan -->
+    <div id="Tombol">
+      <a onClick="sjawab()">
+        <b>💌 Balas</b>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://htmlku.com/script.js"></script>
+
+  <!-- Ganti Kata², Foto, Lagu di bawah ya
+1) Upload foto ke https://postimages.org
+     buat dapetin linknya
+2) Ganti Lagu Upload ke replit.com
+     atau bisa juga ke mailboxdrive.com -->
+
+  <script type="text/javascript">
+    async function pertama() {
+      audio = new Audio('aaaaa.mp3'); showDiv();
+    } pertama();
+
+
+    async function pesan() {
+      await swalst.fire({
+        title: 'Arinaaa',
+        imageUrl: '' + stiker1.src,
+      });
+      await swalst.fire({
+        title: 'aku minta maaff yaaa',
+        imageUrl: '' + stiker2.src,
+      });
+      await swalst.fire({
+        title: 'udaa bikin kamu kesel',
+        imageUrl: '' + stiker3.src,
+      });
+      await swalst.fire({
+        title: 'uda bikin kamu maluu',
+        imageUrl: '' + stiker4.src,
+      });
+      await swalst.fire({
+        title: 'udaa ngerepotin kamuu',
+        imageUrl: '' + stiker5.src,
+      });
+
+      katangetik = "<b class='putih merah fontalt'>Jangan marah lama-lama yaaa 🥺</b><br><br><b>Arin boleh hukum mas<br>Apapuun itu boleh terserah arin<br><br>arin boleh pukul mas deh<br>tapi jangan keras-keras, takuuut 🥺<br><br>tapi mmaafin mass yaaa<br>mas bener-bener minta maaf sama arin soal kejadian kemarin<br><br>mas nyesell uda gituu ke arin 🙏</b>";
+
+      setTimeout(kpemb, 200);
+    }
+  </script>
+</body>
+
+</html>               
